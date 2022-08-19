@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class Main {
+public class Person {
   int x = 5;
 
   public static void main(String[] args) {
-    Main myObj = new Main();
+    Person myObj = new Person();
     System.out.println(myObj.x);
   }
 }
