@@ -1,5 +1,5 @@
 <?php
 
 echo "This is my first file";
-ehoc "This wrong cmd";
+echo "This second echo";
 ?>
