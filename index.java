@@ -1,4 +1,4 @@
-import java.util.*;
+import java.io.*;
 
   class Person {
   int x = 5;
