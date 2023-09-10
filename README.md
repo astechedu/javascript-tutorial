@@ -1,2 +1,1 @@
-# testingapp
-Testing
+# JavaScript Tutorial
