@@ -174,35 +174,106 @@ console.log(fruit)
 
 //Looping Array Elements
 
+//                0          1         2        3
 /*
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fLen = fruits.length;
 
-for (let i = 0; i < fLen; i++) {
-   console.log(fruits[i])
+
+for (let i = 0; i < fLen; i++) {                  // 0 < 4,     1<4 ,      2<4,        3<4
+
+   console.log(i + "->" + fruits[i])                 //fruites[0],fruites[1],fruites[02],fruites[3], 
+   
 }
-*/
+*/                                    
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+//               0          1         2        3
 /*
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-fruits.forEach(function(v, i){
-  console.log(i + "->" + v)
+fruits.forEach(function(v, i){            //Array.forEach()
+  //console.log(v)
+  //console.log(i)
+  console.log(i + ": " + v)
 })
 
+console.log(fruits)
 */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                 0        1          2        3
 /*
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-for(const i in fruits){
+for(let i in fruits){
+   
+   //console.log(i)
+   //console.log(fruits[i])   
   console.log(i + "->" + fruits[i])
 }
 */
 
+
+
+
+
+
+
+
+
+
 //----------------------- x --------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
