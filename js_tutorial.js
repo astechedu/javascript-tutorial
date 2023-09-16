@@ -53,3 +53,30 @@ const cars = ["Volvo", "Maruti", "BMW"];
 const date = new Date("2023-03-25"); 
 //console.log(date)
 //console.log(typeof(date))
+
+//Today
+
+function costs(price,tot){this.price=price,this.total=tot}
+
+
+ function Product(name,cost,nitems){
+ this.add = Object.create(costs),
+ this.name = name,
+ this.cost = cost,
+ this.nitems = nitems
+}
+
+const product1 = new Product("Maruti",10,5)
+const product2 = new Product("BMW",100,3)
+
+Product.prototype.total = function(){ 
+ return this.cost * this.nitems
+}
+
+console.log(product1.total())
+
+console.log(product2.total())
+
+
+
+
