@@ -5,72 +5,6 @@
 //findIndex(),find(),includes(),reduceRight(),isArray(),filter(),map(),forEach(),Array.every(),entries(),keys(),values(),Array.from(),constructor(),
 //copyWithin(),Array.toLocaleString(),flatMap(),
 
-//Array 09/17/23
-
-//Array Methods:
-//length, toString(), push(), pop(), shift(), unshift(), join(),
-//concat(), flat(), splice(), slice()
-
-//How to Recognize an Array
-//Array.isArray(fruits);
-
-//const arr1 = ["Cecilie", "Lone"];
-//const arr2 = ["Emil", "Tobias", "Linus"];
-
-const fruits = ["Banana", "Orange", "Apple", "Grapes"];
-//let type = typeof fruits;
-console.log(fruits)
-//console.log(fruits instanceof Array)
-//console.log(fruits instanceof Object)
-//console.log(fruits instanceof Number)
-//console.log(fruits instanceof String)
-
-//const newArr = fruits.push("Tomato")
-//console.log(fruits)
-//console.log(newArr)
-
-//const newArr = fruits.pop()
-//console.log(fruits)
-//console.log(newArr)
-
-//const newArr = fruits.shift()
-//console.log(fruits)
-//console.log(newArr)
-
-//const newArr = fruits.unshift("potato")
-//console.log(fruits)
-//console.log(newArr)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Adding Array Elements
-/*
- const fruits = ["Banana", "Orange", "Apple"];
-// Adds a new element (Grapes) to fruits
-fruits.push("Grapes");
-*/
-
-
-
-
-//------------ x --------------------------------------
-
-
-
 
 //Array 09/16/23
 
@@ -137,9 +71,6 @@ console.log("2: " + persons[2])
 */
 
 
-
-
-
 //Changing an Array Element
 
 /*
@@ -176,9 +107,6 @@ myArray[2] = myCars          //Array
 console.log(myArray)
 */
 
-
-
-
 //The length Property
 /*
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -212,12 +140,7 @@ console.log(fruit)
 */
 
 
-
-
 //--------------------- x ---------------------------------------
-
-
-
 
 //Looping Array Elements
 
@@ -268,13 +191,6 @@ for(let i in fruits){
 //----------------------- x --------------------------------
 
 
-
-
-
-
-
-
-
 //In JavaScript, arrays always use numbered indexes.   
 /*
 const person = []
@@ -286,6 +202,48 @@ person[2] = 46
 //console.log(person[0])         // Will return "Ajay" 
 
 
+//----------------- x ----------------------------------
+
+
+//Array 09/17/23
+
+//Array Methods:
+//length, toString(), push(), pop(), shift(), unshift(), join(),
+//concat(), flat(), splice(), slice()
+
+//How to Recognize an Array
+//Array.isArray(fruits);
+
+//const arr1 = ["Cecilie", "Lone"];
+//const arr2 = ["Emil", "Tobias", "Linus"];
+
+const fruits = ["Banana", "Orange", "Apple", "Grapes"];
+//let type = typeof fruits;
+console.log(fruits)
+//console.log(fruits instanceof Array)
+//console.log(fruits instanceof Object)
+//console.log(fruits instanceof Number)
+//console.log(fruits instanceof String)
+
+//const newArr = fruits.push("Tomato")
+//console.log(fruits)
+//console.log(newArr)
+
+//const newArr = fruits.pop()
+//console.log(fruits)
+//console.log(newArr)
+
+//const newArr = fruits.shift()
+//console.log(fruits)
+//console.log(newArr)
+
+//const newArr = fruits.unshift("potato")
+//console.log(fruits)
+//console.log(newArr)
+
+
+
+//------------ x --------------------------------------
 
 
 
