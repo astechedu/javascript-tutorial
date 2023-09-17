@@ -1,8 +1,73 @@
+
 //Array Methods
 
 //length,toString(),pop(),push(),shift(),unshift(),join(),delete(),concat(),flat(),splice(),slice(),reverse(),sort(),fill(),lastIndexOf(),indexOf(),of(),
 //findIndex(),find(),includes(),reduceRight(),isArray(),filter(),map(),forEach(),Array.every(),entries(),keys(),values(),Array.from(),constructor(),
 //copyWithin(),Array.toLocaleString(),flatMap(),
+
+//Array 09/17/23
+
+//Array Methods:
+//length, toString(), push(), pop(), shift(), unshift(), join(),
+//concat(), flat(), splice(), slice()
+
+//How to Recognize an Array
+//Array.isArray(fruits);
+
+//const arr1 = ["Cecilie", "Lone"];
+//const arr2 = ["Emil", "Tobias", "Linus"];
+
+const fruits = ["Banana", "Orange", "Apple", "Grapes"];
+//let type = typeof fruits;
+console.log(fruits)
+//console.log(fruits instanceof Array)
+//console.log(fruits instanceof Object)
+//console.log(fruits instanceof Number)
+//console.log(fruits instanceof String)
+
+//const newArr = fruits.push("Tomato")
+//console.log(fruits)
+//console.log(newArr)
+
+//const newArr = fruits.pop()
+//console.log(fruits)
+//console.log(newArr)
+
+//const newArr = fruits.shift()
+//console.log(fruits)
+//console.log(newArr)
+
+//const newArr = fruits.unshift("potato")
+//console.log(fruits)
+//console.log(newArr)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Adding Array Elements
+/*
+ const fruits = ["Banana", "Orange", "Apple"];
+// Adds a new element (Grapes) to fruits
+fruits.push("Grapes");
+*/
+
+
+
+
+//------------ x --------------------------------------
 
 
 
@@ -93,15 +158,6 @@ console.log(persons)
 */
 
 
-
-
-
-
-
-
-
-
-
 //Array Elements Can Be Objects
 /*
 const myFunction = function (){
@@ -123,9 +179,6 @@ console.log(myArray)
 
 
 
-
-
-
 //The length Property
 /*
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -136,10 +189,6 @@ console.log(length)
 */
 
 
-
-
-
-
 //Accessing the First Array Element
 /*
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -148,8 +197,6 @@ let fruit = fruits[1];
 
 console.log(fruit)
 */
-
-
 
 
 
@@ -190,17 +237,6 @@ for (let i = 0; i < fLen; i++) {                  // 0 < 4,     1<4 ,      2<4, 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 //               0          1         2        3
 /*
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -213,23 +249,6 @@ fruits.forEach(function(v, i){            //Array.forEach()
 
 console.log(fruits)
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -246,14 +265,6 @@ for(let i in fruits){
 */
 
 
-
-
-
-
-
-
-
-
 //----------------------- x --------------------------------
 
 
@@ -264,82 +275,15 @@ for(let i in fruits){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Adding Array Elements
-/*
- const fruits = ["Banana", "Orange", "Apple"];
-// Adds a new element (Grapes) to fruits
-fruits.push("Grapes");                          
-*/
-
-
-
-
-
 //In JavaScript, arrays always use numbered indexes.   
-
+/*
 const person = []
 person[0] = "Ajay"
 person[1] = "Sisaudiya"
 person[2] = 46
+*/
 //console.log(person.length)      // Will return 3
 //console.log(person[0])         // Will return "Ajay" 
-
-
-
-
-//JavaScript new Array()
-//The new keyword can produce some unexpected results:
-//const points = new Array(40, 100, 1);
-
-//const points = new Array();
-//const points = [1,2,3]
-//console.log(points)   
-
-
-
-
-
-//A Common Error
-
-//const points1 = [40]
-//is not the same as:
-//const points2 = new Array(40)
-
-
-//How to Recognize an Array
-//Array.isArray(fruits);
-
-//const fruits = ["Banana", "Orange", "Apple"];
-//let type = typeof fruits;
-//console.log(fruits instanceof Array)
-
-
-
-
-//Array Methods: 
-//lendth, toString(), push(), pop(), shift(), unshift(), join(), 
-//delete(), concat(), //flat(), splice(), slice()
-
-
-
-
-
-
 
 
 
